@@ -3,9 +3,7 @@
     "version": "0.1.0",
     "source": "src/index.html",
     "scripts": {
-        "start": "parcel",
-        "build": "parcel build",
-        "server": "json-server --watch ./src/db.json"
+        "start": "json-server --watch ./src/db.json"
     },
     "devDependencies": {
         "eslint": "^8.24.0",
