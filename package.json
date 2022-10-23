@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "source": "src/index.html",
     "scripts": {
-        "start": "json-server --watch db.json"
+        "start": "node index.js"
     },
     "devDependencies": {
         "eslint": "^8.24.0",
